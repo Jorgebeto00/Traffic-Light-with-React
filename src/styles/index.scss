@@ -1,13 +1,27 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.container{
+    background: yellowgreen;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.top{
+    margin: auto;
+    height: 50px;
+    width: 10px;
+    background: black;
+}
 
-*/
+.trafficLight{
+    margin: auto;
+    background: black;
+    width: 110px;
+    border-radius: 10px;
+}
+.round{
+    
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+    border-radius: 100%;
+}

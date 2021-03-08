@@ -1,14 +1,24 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-
-//create your first component
 export function Home() {
+	// const [color, setColor] = useState("off");
+
+	// setColor(color){
+
+	// }
+
+	// useEffect(() => {
+
+	// });
+
 	return (
-		<div className="text-center mt-5">
-			<h1>Hello World</h1>
-			
+		<div className="container">
+			<div className="top"></div>
+			<div className="trafficLight">
+				<div className="round red"></div>
+				<div className="round yellow"></div>
+				<div className="round green"></div>
+			</div>
 		</div>
 	);
 }
