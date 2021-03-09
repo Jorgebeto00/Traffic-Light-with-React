@@ -18,10 +18,24 @@
     border-radius: 10px;
 }
 .round{
-    
     margin: auto;
     width: 100px;
     height: 100px;
-    background: blueviolet;
+    background: gray;
     border-radius: 100%;
+}
+
+.off{
+    background-color: gray;
+}
+
+.red-on{
+    background-color: red;
+}
+.yellow-on{
+    background-color: yellow;
+}
+
+.green-on{
+    background-color: green;
 }
